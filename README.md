@@ -6,7 +6,7 @@ Designed RESTful API for managing a library system.
  
 Install the file and run the command npm init to install all the dependencies required.
 ```
-npm init
+npm init --y
 ```
 
 ## Adding initial data (Mock data)
