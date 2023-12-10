@@ -4,7 +4,7 @@ Designed RESTful API for managing a library system.
 
 ## Installation
  
-Install the file and run the command npm init to install all the dependencies required.
+Install the file and run the command npm init --y inside the terminal to install all the dependencies required.
 ```
 npm init --y
 ```
