@@ -19,8 +19,10 @@ End Points:
      
 3.  To Update Book details:
      Endpoint -> http://localhost:3000/api/books/id (PUT Reuest)
-     Expected Request -> The request should contain book id in the url.
-                        And request body should contain the updated details in JSON format.
+     Expected Request -> The request should contain book id in the url.(When you add a book, the mongodb 
+                         automatically generates an id for that book.You have to use that id to update/delete 
+                         the book.
+                         And request body should contain the updated details in JSON format.
      
 4.  To delete a book :
      Endpoint -> http://localhost:3000/api/books/id  (DELETE Request)
